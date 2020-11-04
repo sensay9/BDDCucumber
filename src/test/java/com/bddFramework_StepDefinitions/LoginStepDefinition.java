@@ -1,6 +1,7 @@
 package com.bddFramework_StepDefinitions;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -17,7 +18,10 @@ public class LoginStepDefinition {
 	public void user_already_on_login_page() {		
 		System.setProperty("webdriver.chrome.driver", "C://Users//Sen//eclipse-workspace//com.bddFramework_Cucumber//drivers//chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
+		Dimension d = new Dimension(1382,744); 
+		//Resize the current window to the given dimension
+		driver.manage().window().setSize(d); 
 		driver.get("https://www.saucedemo.com/");
 	}
 	
