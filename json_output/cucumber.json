@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Swag Labs Login Test Scenario",
+        "description": "",
+        "id": "swag-labs-login-feature;swag-labs-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6832467600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14975500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Title of login page is Swag Labs",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_Swag_Labs()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 238740800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "LoginStepDefinition.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 827054100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 320039400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on homepage",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60125300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user closes the browser",
+            "match": {
+              "location": "LoginStepDefinition.user_closes_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Swag Labs Login Feature",
+    "description": "",
+    "id": "swag-labs-login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

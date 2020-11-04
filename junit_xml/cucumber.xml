@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.293403">
+    <testcase classname="Swag Labs Login Feature" name="Swag Labs Login Test Scenario" time="8.293403">
+        <system-out>
+            <![CDATA[Given User is already on Login Page.........................................passed
+When Title of login page is Swag Labs.......................................passed
+Then user enters username and password......................................passed
+And user clicks on login button.............................................passed
+Then user is on homepage....................................................passed
+And user closes the browser.................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
